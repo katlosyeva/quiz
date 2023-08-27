@@ -1,0 +1,52 @@
+.main-layout {
+  background-color: black;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.red-rectangle {
+  position: absolute;
+  width: 93.3rem;
+  height: 96.2rem;
+  margin-left: -26rem;
+  top: 0rem;
+
+  background: radial-gradient(
+    32.48% 31.5% at 50% 50%,
+    #f54b4b 0%,
+    rgba(255, 69, 69, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(157px);
+}
+.blue-rectangle {
+  position: absolute;
+  width: 93.3rem;
+  height: 96.2rem;
+  margin-left: -26rem;
+  top: 30rem;
+
+  background: radial-gradient(
+    32.48% 31.5% at 50% 50%,
+    #4baef5 0%,
+    rgba(69, 166, 255, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(157px);
+}
+.green-rectangle {
+  position: absolute;
+  width: 93.3rem;
+  height: 96.2rem;
+  right: -14rem;
+  top: -9.2rem;
+
+  background: radial-gradient(
+    32.48% 31.5% at 50% 50%,
+    #f2f54b 0%,
+    rgba(255, 236, 69, 0) 100%
+  );
+  opacity: 0.5;
+  filter: blur(157px);
+}

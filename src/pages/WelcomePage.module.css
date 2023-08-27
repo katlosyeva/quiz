@@ -1,0 +1,14 @@
+.welcomePageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.logo {
+  position: fixed;
+  left: 50%;
+  margin-left: -6.9rem;
+  top: 9rem;
+}

@@ -1,0 +1,39 @@
+.playscreen {
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 63.3rem;
+
+  background: #1b1d31;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 35fr 65fr;
+  gap: 6rem;
+}
+.circleImage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}
+@media (max-width: 1640px) {
+  .playscreen {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .circleImage {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .playscreen {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

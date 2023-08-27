@@ -1,0 +1,101 @@
+.welcomeForm {
+  height: 48.4rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 9rem 0px;
+  background: #1b1d31;
+  border-radius: 10px;
+}
+.welcomeForm__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.welcomeForm h1 {
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcomeForm p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.7;
+  text-align: center;
+}
+.welcomeForm input {
+  background-color: #1b1d31;
+  width: 80%;
+  height: 6.1rem;
+  border: none;
+  border-bottom: 1px solid #373b62;
+}
+.welcomeForm input::placeholder {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.welcomeForm input:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.welcomeForminput:focus,
+.welcomeForm input:valid {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.welcomeForm input:focus-visible {
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+}
+.welcomeForm__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 16.5rem;
+  height: 6.4rem;
+  background: linear-gradient(90deg, #808080 -0.37%, #656565 100.37%);
+  border-radius: 5px;
+}
+.welcomeForm__button:disabled {
+  background: linear-gradient(90deg, #808080 -0.37%, #656565 100.37%);
+}
+
+.welcomeForm__button:enabled:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    linear-gradient(90deg, #7e55b3 -0.37%, #a769c4 100.37%);
+}
+.welcomeForm__button span {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.welcomeForm__button span::after {
+  content: "\2192";
+  color: #ffffff;
+}

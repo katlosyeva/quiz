@@ -1,0 +1,34 @@
+.breadcrumbs {
+  padding: 0 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.7rem;
+  background: #1b1d31;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  z-index: 2;
+}
+.music-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+.gradient-line {
+  background: #a769c4;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+.border {
+  height: 0.1rem;
+  background: #373b62;
+  border-radius: 5px;
+}
+.music-type {
+  color: #dca1f8;
+}
+@media (max-width: 580px) {
+  .music-type {
+    font-size: 12px;
+  }
+}
